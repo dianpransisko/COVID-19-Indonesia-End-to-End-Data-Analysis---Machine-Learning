@@ -64,4 +64,4 @@ Update database credentials in the .ipynb notebooks before execution.
 
 📝 Citation
 If you utilize this analysis or code in your research, please cite it as:
-DIAN PRANSISKO HARAHAP(2026). COVID-19 Indonesia: End-to-End Data Analysis & Machine Learning
+DIAN PRANSISKO HARAHAP(2026). COVID-19 Indonesia: End-to-End Data Analysis & Machine Learning [https://doi.org/10.5281/zenodo.18850038]
