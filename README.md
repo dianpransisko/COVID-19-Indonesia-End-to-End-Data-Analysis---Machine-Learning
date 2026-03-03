@@ -44,7 +44,7 @@ The analysis provides visual insights into:
 - Insight: High-transmission regions (e.g., Jakarta) maintain lower CFRs compared to moderate-transmission regions (e.g., Lampung), indicating disparities in medical infrastructure readiness.
 - Recommendation: Prioritize the allocation of oxygen logistics and ventilators to Cluster 2 (High Fatality) regions to effectively mitigate daily mortality rates.
 
-===================================================================================================
+=================================================
 
 📂 Getting Started
 1. Clone the repository:
