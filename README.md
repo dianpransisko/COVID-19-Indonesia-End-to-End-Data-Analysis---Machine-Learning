@@ -23,3 +23,43 @@ Usage Policy: In compliance with the ShareAlike (SA) provision, all analyses, so
 - Raw datasets (CSV) were migrated to PostgreSQL for robust cleaning and transformation. Key SQL techniques include:
 - Window Functions (LAG, AVG OVER): Utilized to calculate daily case variances and 7-Day Moving Averages.
 - Data Aggregation: Summarizing cumulative statistics across 34 provinces.
+2. Exploratory Data Analysis (EDA)
+- Identified critical milestones and anomalies:
+- Pandemic Peak: February 16, 2022 (Omicron Wave), exceeding 64k cases/day.
+- Epicenter: DKI Jakarta recorded the highest volume (1.4M+ cases).
+- Fatality Anomaly: Lampung exhibited the highest Case Fatality Rate (CFR) at 5.55%.
+3. Machine Learning Implementation
+- Regression Analysis: Developed a predictive framework to estimate mortality based on case surges:
+$$y = 0.0188x + 40$$
+(where $y$ is predicted deaths and $x$ is new cases).
+- K-Means Clustering: Segmented 34 provinces into 3 distinct risk zones (High Transmission, High Fatality, and Stable) to facilitate targeted policy interventions.
+
+🖼️ Visualizations & Dashboards
+The analysis provides visual insights into:
+- Daily Trends vs. Moving Averages for noise reduction.
+- Top 10 Provinces ranked by total case volume.
+- Clustering Geospatial Maps illustrating regional risk levels.
+
+💡 Strategic Insights & Recommendations (BI)
+- Insight: High-transmission regions (e.g., Jakarta) maintain lower CFRs compared to moderate-transmission regions (e.g., Lampung), indicating disparities in medical infrastructure readiness.
+- Recommendation: Prioritize the allocation of oxygen logistics and ventilators to Cluster 2 (High Fatality) regions to effectively mitigate daily mortality rates.
+
+===================================================================================================
+
+📂 Getting Started
+1. Clone the repository:
+Bash
+git clone https://github.com/yourusername/covid19-indonesia.git
+cd covid19-indonesia
+
+2. Install dependencies:
+Bash
+pip install -r requirements.txt
+Database Configuration:
+
+3. Execute scripts in the /sql directory to set up your PostgreSQL environment.
+Update database credentials in the .ipynb notebooks before execution.
+
+📝 Citation
+If you utilize this analysis or code in your research, please cite it as:
+DIAN PRANSISKO HARAHAP(2026). COVID-19 Indonesia: End-to-End Data Analysis & Machine Learning. Zenodo. [ZENODO LINK]
