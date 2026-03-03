@@ -1,3 +1,6 @@
+
+<img width="1800" height="1200" alt="laporan_final_covid_clean" src="https://github.com/user-attachments/assets/fbdd9044-0387-4e4b-ad82-d387da73fd20" />
+
 📊 COVID-19 Indonesia: End-to-End Data Analysis & Machine Learning
 This project delivers a comprehensive analysis of the COVID-19 pandemic's evolution in Indonesia (March 2020 – September 2022). It covers the full data lifecycle—from advanced PostgreSQL data wrangling and statistical analysis to Machine Learning implementation for regional risk stratification and fatality prediction.
 
