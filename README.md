@@ -4,7 +4,7 @@
 📊 COVID-19 Indonesia: End-to-End Data Analysis & Machine Learning
 This project delivers a comprehensive analysis of the COVID-19 pandemic's evolution in Indonesia (March 2020 – September 2022). It covers the full data lifecycle—from advanced PostgreSQL data wrangling and statistical analysis to Machine Learning implementation for regional risk stratification and fatality prediction.
 
-Primary Data Source: COVID-19 Indonesia Dataset by Hendratno via Kaggle.
+Primary Data Source: COVID-19 Indonesia Dataset by : Hendratno via Kaggle.
 
 Original Data License: CC BY-NC-SA 4.0
 
