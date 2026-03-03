@@ -49,8 +49,6 @@ The analysis provides visual insights into:
 
 
 📂 Getting Started
-1. Clone the repository:
-
 ## 🚀 Installation & Setup
 1. **Clone the repository**:
    ```bash
