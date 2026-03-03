@@ -48,16 +48,18 @@ The analysis provides visual insights into:
 
 📂 Getting Started
 1. Clone the repository:
-Bash
-git clone https://github.com/yourusername/covid19-indonesia.git
-cd covid19-indonesia
 
-2. Install dependencies:
+## 🚀 Installation & Setup
+1. **Clone the repository**:
+   ```bash
+    git clone https://github.com/yourusername/covid19-indonesia.git cd covid19-indonesia
+
+3. Install dependencies:
 Bash
 pip install -r requirements.txt
 Database Configuration:
 
-3. Execute scripts in the /sql directory to set up your PostgreSQL environment.
+4. Execute scripts in the /sql directory to set up your PostgreSQL environment.
 Update database credentials in the .ipynb notebooks before execution.
 
 📝 Citation
